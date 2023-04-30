@@ -1,0 +1,126 @@
+body {
+    
+    box-sizing: border-box;
+    color: #F8F8F8;
+    font-family: 'Poppins';
+    margin: auto;
+   
+    
+}
+
+
+.flex-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reset-btn {
+    display: flex;
+    margin: 2em auto;
+    border: none;
+    background: greenyellow;
+    padding: 0.8em 1.5em;
+    border-radius: 0.5rem;    
+}
+
+.end-message {
+    color: black ;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 1.5rem
+}
+
+
+
+.picture {
+    position: absolute;
+    width: 200.91px;
+    left: 14px;
+    top: 121.96px;
+    transform: rotate(-30deg);
+}
+
+.dog-image {
+    width: 100%;
+    height: 75vh;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    display: block; 
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+    padding: 1em;
+}
+
+.header-img {
+    height: 50%;
+    width: 50px;
+}
+
+.character-card {
+    position: relative;
+    width: 100%;
+    margin: 1.5em auto;
+    
+}
+
+.dog-information{
+     position: absolute;
+     color: white;
+     bottom: 10px;
+     left: 10px;
+     font-size: 1.5rem;
+}
+
+
+.button-section {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;  
+}
+
+.reject-button, .accept-button{
+    border-radius: 50%;
+    padding: 1em;
+    border: 0;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px #999;
+     transition: all .3s
+}
+
+
+.accept-button:hover{
+   
+   
+    filter: hue-rotate(180deg);
+  
+}
+
+.reject-button:hover {
+    
+    filter: hue-rotate(280deg);
+}
+
+
+@media screen and (min-width: 1000px) {
+    body {
+        width: 45%;
+    }
+  }
+@media screen and (max-width: 999px) {
+    body {
+        width: 90vw;
+    }
+
+  }
+
